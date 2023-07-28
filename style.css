@@ -56,3 +56,28 @@ h1{
     color: whitesmoke;
     text-transform: uppercase;
 }
+@media screen and (max-width: 1200px) {
+    .round{
+        width: 24%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .round{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .round{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .round{
+        width: 36%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .round{
+        width: 40%;
+    }
+}
