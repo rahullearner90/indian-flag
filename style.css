@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(claud.jpg);
+    background-position: center;
+    background-size: cover;
+    /* You can check */
+    /* padding: 2%; */
+}
+/* making background image dark it is like filter or overlay */
+.container{
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    height: 100%;
+}
+/* height and width of the flag */
+.fp{
+    height: 10%;
+    width: 30%;
+}
+/* Color for the flag */
+.org{
+    background-color: #FF9933;
+}
+.grn{
+    background-color: #138808;
+}
+/* Circle part */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.round{
+    background-color: #000080;
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    margin: 5%;
+}
+/* for text */
+h1{
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
